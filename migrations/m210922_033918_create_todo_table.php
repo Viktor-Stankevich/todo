@@ -17,6 +17,7 @@ class m210922_033918_create_todo_table extends Migration
             'todo' => $this->string(),
             'date' => $this->date(),
             'description' => $this->string(),
+            'user_id' => $this->string(),
         ]);
     }
 
