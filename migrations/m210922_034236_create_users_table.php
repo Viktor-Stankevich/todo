@@ -15,6 +15,7 @@ class m210922_034236_create_users_table extends Migration
         $this->createTable('{{%users}}', [
             'id' => $this->primaryKey(),
             'username' => $this->string(),
+            'password' => $this->string(),
             'user_id' => $this->string()
         ]);
     }
